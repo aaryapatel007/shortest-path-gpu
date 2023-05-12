@@ -27,16 +27,12 @@ This was my project for the course *CSE-560: GPU Computing* offered by IIIT-D un
 
 ## Results:
 
-Excellent speedups were obtained in comparison to CPU heap implementation and speedups are as high as 130x when compared STL-heap on inserted approximately 130 million keys in the heap.
+Excellent speedups were obtained in comparison to CPU implementation.
 
-Time graph on varying number of keys inserted:
-![](https://github.com/CSE-560-GPU-Computing-2021/project_-team_15/blob/master/results/graph1.png)
+Speedups achieved by GPU and GPU with grid strides over different numbers of vertices by Bellman-Ford algorithm:
+![](https://github.com/aaryapatel007/shortest-path-gpu/blob/main/images/speedups_bellman.png)
 
 <br>
 
-Speedup graph on varying number of keys inserted. Speedup is with respect to my naive CPU implementation of heap:
-![](https://github.com/CSE-560-GPU-Computing-2021/project_-team_15/blob/master/results/graph2.png)
-<br>
-
-Speedup graph on varying number of keys inserted. Speedup is with respect to **STL-HEAP**:
-![](https://github.com/CSE-560-GPU-Computing-2021/project_-team_15/blob/master/results/graph2.2.png
+Speedups achieved by GPU and GPU with grid strides over different numbers of vertices by Dijkstra's algorithm.
+![](https://github.com/aaryapatel007/shortest-path-gpu/blob/main/images/speedups_dijkstras.png)
